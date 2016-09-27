@@ -5,8 +5,10 @@ from pyrob.api import *
 
 @task
 def task_1_1():
-    pass
-
+    for i in range(1):
+        move_right()
+        move_right()
+        move_down()
 
 if __name__ == '__main__':
     run_tasks()
