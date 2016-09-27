@@ -8,7 +8,7 @@ def task_8_2():
    i=1
    while i!=0:
        if wall_is_beneath()==True and wall_is_above()==True:
-           move_right(1)
+           move_right()
        if wall_is_above()==False:
             fill_cell()
        if wall_is_on_the_right()==True:
